@@ -1,0 +1,170 @@
+*{ 
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282 ;
+}
+
+nav a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #828282;
+    padding: 33px 0 32px ;
+}
+
+nav a:hover{
+    color: #070707;
+} 
+
+.subnabar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 30px;
+}
+
+.subnabar h1{
+    width: 123px;
+    font-size: 47px;
+}
+
+.subnabar-center p {
+    font-size: 18px;
+    width: 165px;
+} 
+.subnabar-right{
+    display: flex;
+    justify-content: right;
+    transform: rotate(-90deg);
+    color: #828282;
+    font-weight: 700;
+}
+
+.subnabar-right span{
+    color: #070707;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #f6f6f6;
+    padding: 100px 0;
+}
+
+.about p{
+  margin: 20px 0;
+  width: 485px;
+  display: block;
+  text-align: center ;
+  size: 18px;
+  line-height: 21.83px;
+  font-weight: 600;
+}
+
+.about h2{
+    font-size: 34px;
+    list-style: 42.09px;
+    font-weight: bold;   
+}
+
+.Skills{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.Skills div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+
+
+.Skills p{
+    margin: 70px 0;
+}
+
+.Portfolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.Portfolio img {
+   margin: 40px 0;
+}
+
+.Portfolio a {
+    color: #070707;
+}
+
+.reebok {
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reebok img{
+    margin: 40px 0; 
+} 
+
+.reebok a{
+    color: #070707;
+}
+
+.Braun{
+   padding: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.Braun img{
+    margin: 40px 0;
+}
+
+.Braun a{
+   color: #070707;
+}
+
+.contacts{
+   padding: 120px 0;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-direction: column;
+   background: #f6f6f6;
+}
+
+.contacts img{
+    margin: 20px 0;
+}
+
+.contacts a{
+    color: #797373;
+}
